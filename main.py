@@ -16,6 +16,8 @@ class MyWindow(Gtk.ApplicationWindow):
         button.connect("clicked", self.do_clicked)
         self.add(button)
 
+
+
     def do_clicked(self, button):
         print("You clicked me!")
 
